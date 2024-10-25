@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styles from "./FAQ.module.scss"; // Импортируем стили как модуль
+import { useState } from "react";
+import styles from "./FAQ.module.scss";
 
 function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);

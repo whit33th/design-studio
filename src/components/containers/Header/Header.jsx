@@ -2,7 +2,7 @@ import styles from "./Header.module.scss";
 import logo from "/header-logo.png";
 import BorderBtn from "../../UI/Buttons/BorderBtn";
 
-const HEADER_HEIGHT = 90; // высота шапки
+const HEADER_HEIGHT = 90;
 
 const scrollToSection = (id) => {
   const section = document.getElementById(id);

@@ -8,7 +8,6 @@ import Header from "./components/containers/Header/Header";
 import Project from "./pages/Project/Project";
 import FAQ from "./pages/FAQ/FAQ";
 import Footer from "./components/containers/Footer/Footer";
-import React from "react";
 
 function App() {
   return (

@@ -44,13 +44,13 @@ p {
   height: 100%;
 }
 
-.container{
+.container {
   padding: 100px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.greyBackground{
+.greyBackground {
   background-color: #111;
 }
 
@@ -84,11 +84,11 @@ h3 {
 .gap40 {
   gap: 40px;
 }
-.pt40{
-  padding-top: 40px ;
+.pt40 {
+  padding-top: 40px;
 }
-.pb40{
-  padding-bottom: 40px ;
+.pb40 {
+  padding-bottom: 40px;
 }
 .flex {
   display: flex;

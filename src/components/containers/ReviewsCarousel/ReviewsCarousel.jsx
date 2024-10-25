@@ -1,4 +1,3 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import styles from "./Styles.module.scss";
@@ -28,13 +27,13 @@ const ReviewsCarousel = ({ source, reverseDirection = false }) => {
             <div className="flex column gap20">
               <div className="row flex space-between  ">
                 <div className="row flex gap20">
-                  <img src={i.img} alt="" className={styles.logo} />
+                  <img src={i.img} alt="" className={styles.logo} loading="lazy" />
                   <div className="flex column">
                     <p className={styles.name}>{i.name}</p>
                     <p className={styles.gray}>{i.company}</p>
                   </div>
                 </div>
-                <img src={quote} alt="" className={styles.quote} />
+                <img src={quote} alt="" className={styles.quote} loading="lazy" />
               </div>
               <div className={styles.reviews}>
                 <p className={styles.gray}>{i.review}</p>

@@ -23,39 +23,39 @@ function Footer() {
         </div>
         <div>
           <p>Resources</p>
-          <a className="sText">Documentation </a>
-          <a className="sText">Papers</a>
-          <a className="sText">Press Conferences </a>
+          <a href='#' className="sText">Documentation </a>
+          <a href='#' className="sText">Papers</a>
+          <a href='#' className="sText">Press Conferences </a>
         </div>
         <div>
           <p>Legal </p>
-          <a className="sText">Terms of Service</a>
-          <a className="sText">Privacy Policy</a>
-          <a className="sText">Cookies Policy</a>
-          <a className="sText">Data Processing</a>
+          <a href='#' className="sText">Terms of Service</a>
+          <a href='#' className="sText">Privacy Policy</a>
+          <a href='#' className="sText">Cookies Policy</a>
+          <a href='#' className="sText">Data Processing</a>
         </div>
       </div>
       <hr />
       <div >
         <div className={styles.botInfo}>
-          <img  src={checked} alt="" />
+          <img  src={checked} alt="" loading="lazy" />
           <p > Active in all social networks</p>
         </div>
         <div className={styles.socialLinks}>
           <button>
-            <img src={inst} alt="" />
+            <img src={inst} alt=""  loading="lazy"/>
             <span>Instagram</span>
           </button>
           <button>
-            <img src={linkedin} alt="" />
+            <img src={linkedin} alt="" loading="lazy" />
             <span>Linkedin</span>
           </button>
           <button>
-            <img src={fb} alt="" />
+            <img src={fb} alt="" loading="lazy" />
             <span>Facebook</span>
           </button>
           <button>
-            <img src={x} alt="" />
+            <img src={x} alt="" loading="lazy" />
             <span>Twitter</span>
           </button>
         </div>
