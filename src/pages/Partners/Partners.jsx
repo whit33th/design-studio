@@ -1,5 +1,5 @@
 import styles from "./Partners.module.scss";
-import airbnb from 'asset/airbnb.webp'
+import airbnb from 'asset/Airbnb.webp'
 import tesla from 'asset/Tesla.webp'
 import canva from 'asset/Canva.webp'
 import twitch from 'asset/Twitch.png'
