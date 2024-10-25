@@ -1,0 +1,13 @@
+.reviews{
+	padding: 20px 0 0 0;
+	> div:first-child {
+		margin-bottom: 40px;
+	}
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-top: 40px;
+	
+}

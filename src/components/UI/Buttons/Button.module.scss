@@ -1,0 +1,28 @@
+.Btn {
+	background-color: white;
+	border-radius: 100px;
+	height: 50px;
+	padding: 0 30px;
+	font-size: medium;
+	color: var(--black);
+	border: none;
+	transition: 0.3s;
+	text-wrap: nowrap;
+	&:hover{
+		opacity: 0.8;
+	}
+}
+.BorderBtn{
+	text-wrap: nowrap;
+	height: 50px;
+	background-color: transparent;
+	border: 2px solid rgb(200, 200, 200);
+	border-radius: 100px;
+	color: var(--primary-color);
+	padding: 0 30px;
+	font-size: medium;
+	transition: 0.3s;
+	&:hover{
+		opacity: 0.8;
+	}
+}

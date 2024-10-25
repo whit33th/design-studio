@@ -1,0 +1,26 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+	text-align: center;
+  padding: 100px 0 0 0;
+	p{
+		line-height: 30px;
+	}
+  .largeText {
+    p {
+			line-height: normal;
+      font-weight: 500;
+      font-size: 72px;
+
+      &:first-child {
+        background: -webkit-linear-gradient(16deg, #ff4bdb, #a35fff, #ff4b4b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content is spaced properly */
+  height: 100%; /* Allow the card to take full height */
+  > div {
+    flex-grow: 1;
+  }
+  .logo {
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+  }
+	.quote {
+    filter: invert(0.2);
+    width: 48px !important;
+    height: 48px;
+  }
+
+  .gray {
+    color: #bcbcbc;
+  }
+  .reviews {
+    padding: 5px 10px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+  }
+
+  .name {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+}
+.swiper-slide {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}

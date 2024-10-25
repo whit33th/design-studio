@@ -1,0 +1,38 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+ padding: 0 100px;
+
+  .background {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 285px;
+    background-clip: content-box;
+    background-image: url(/src/assets/codeImg.png);
+
+    
+  }
+  div:nth-child(2) {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shadow {
+    position: relative;
+    z-index: 0;
+  }
+
+  .shadow::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    z-index: 1; /* Make sure it appears on top of the image */
+    border-radius: 16px; /* Adjust based on the shape of your image */
+  }
+}
